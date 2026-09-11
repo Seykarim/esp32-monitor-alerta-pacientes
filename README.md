@@ -10,7 +10,7 @@ Diseñado con enfoque académico y social para **adultos mayores**, pacientes en
 
 ---
 
-## 🎯 Motivación y Relevancia Social
+## Motivación y Relevancia Social
 
 El envejecimiento acelerado de la población y el déficit de cuidadores formales exigen soluciones tecnológicas de **bajo costo** y **alta accesibilidad**:
 - **Detección temprana:** Las caídas no atendidas a tiempo representan una de las principales causas de complicación en salud para adultos mayores.
@@ -34,7 +34,7 @@ El envejecimiento acelerado de la población y el déficit de cuidadores formale
 
 ---
 
-## 📐 Esquema de Conexionado (Pinout)
+## Esquema de Conexionado (Pinout)
 
 Ambos sensores (**MAX30102** y **MPU6050**) comparten el bus I2C del ESP32 gracias a que poseen diferentes direcciones I2C en el bus (`0x57` para MAX30102 y `0x68` para MPU6050).
 
@@ -53,7 +53,7 @@ Ambos sensores (**MAX30102** y **MPU6050**) comparten el bus I2C del ESP32 graci
 
 ---
 
-## 🧮 Algoritmo de Detección de Caídas
+## Algoritmo de Detección de Caídas
 
 El sistema analiza el **Módulo Vectorial de Aceleración Total ($A_T$)** producido por las fuerzas $X, Y, Z$:
 
@@ -78,15 +78,15 @@ Si el patrón cumple estos umbrales, el sistema activa el Buzzer local y envía 
 
 ---
 
-## ⚠️ Descargo de Responsabilidad (Academic Disclaimer)
+## Descargo de Responsabilidad (Academic Disclaimer)
 
 Este dispositivo es un prototipo desarrollado con fines puramente **académicos, educativos y de investigación personal**. No cuenta con certificación de organismo regulador sanitario (INVIMA, FDA, CE) ni pretende sustituir equipos médicos profesionales de diagnóstico o monitoreo hemodinámico crítico.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-**Seykarim R. Mestre Zalabata**  
+**Seykarim R. Mestre Zalabata.**  
 *Ingeniero Electrónico | Innovación en Salud & IoT Territorial*  
-Valledupar, Cesar, Colombia  
+Pueblo Bello - Jewrwa, Cesar, Colombia.  
 [![GitHub](https://img.shields.io/badge/GitHub-Seykarim-181717?style=flat&logo=github)](https://github.com/)
